@@ -6,7 +6,6 @@ screen = Screen()
 screen.setup(width=500, height=400)
 user_bet = screen.textinput(title="Place your bet", prompt="Which color will win today?")
 colors = ["red", "orange", "blue", "black", "pink", "yellow", "green", "purple", "brown"]
-names = ["James", "Caine", "Nader", "Bryan", "Kevin", "Matheo", "Anna", "Trinh", "Moh"]
 y_positions = [-130, -100, -70, -40, -10, 20, 50, 80, 110]
 all_turtles = []
 
